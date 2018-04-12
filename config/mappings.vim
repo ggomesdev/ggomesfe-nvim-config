@@ -9,3 +9,5 @@ nnoremap <leader>; A;<esc>
 " <cr> - enter
 nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
+
+nnoremap <C-l> :call NumberToggle()<CR>

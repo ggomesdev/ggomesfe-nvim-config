@@ -1,6 +1,5 @@
 " Set Keyleadders {{{
 
-" Space as leader key
-let mapleader="\<space>"
+let mapleader="\<space>"    "Space as leader key
 
-" }}}
+"}}}
