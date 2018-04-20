@@ -24,10 +24,11 @@ set shiftround      " Round indent to multiple of 'shiftwidth'
 
 " Editor UI Appearance {{{
 " --------------------
+set noshowmode          " Disable -- INSERT --
 set relativenumber      " Enable relative numbers
 set colorcolumn=80      " Highlight the 80th character limit
 
-set showtabline=2       " Always show the tabs line
+set showtabline=1       " Always show the tabs line
 
 
 

@@ -1,3 +1,6 @@
+let $LANG = 'en'
+set langmenu=none
+
 let $INIT_VIM = '$HOME/.config/nvim/config/init.vim'
 let $PLUGINS_PACK = '$HOME/.config/nvim/config/plugins-pack.vim'
 let $GENERAL = '$HOME/.config/nvim/config/general.vim'

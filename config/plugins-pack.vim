@@ -4,7 +4,7 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " Theme
-Plug 'morhetz/gruvbox'
+Plug 'joshdick/onedark.vim'
 
 " Vim Multiple cursos
 " Ctrl + n
@@ -23,7 +23,26 @@ Plug 'cloudhead/neovim-fuzzy'
 " Ag - search entire file
 Plug 'epmatsw/ag.vim'
 
-" Autocomplete
-Plug 'roxma/nvim-completion-manager'
+" Autopairs
+Plug 'jiangmiao/auto-pairs'
+
+" Javascript And react
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+
+"Autocomplete
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
+"Asynchone lint
+Plug 'w0rp/ale'
+
+" Prettier
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
+" Vim Airline
+Plug 'vim-airline/vim-airline'
+
+" Block comments
+Plug 'scrooloose/nerdcommenter'
 
 call plug#end()

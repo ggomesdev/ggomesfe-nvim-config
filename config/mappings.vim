@@ -7,7 +7,7 @@ nnoremap <leader>; A;<esc>
 " ev - edit vim
 " vsplit - split screen
 " <cr> - enter
-nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
+nnoremap <leader>ev :vsplit ~/.config/nvim<cr>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 
 nnoremap <C-l> :call NumberToggle()<CR>
