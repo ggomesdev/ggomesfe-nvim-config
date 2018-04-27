@@ -6,6 +6,7 @@
 set hidden
 set mouse=a             " Enable mouse to all
 set inccommand=split    " Preview actions
+set filetype            " Autodetect file opened
 " }}}
 
 
@@ -29,8 +30,5 @@ set relativenumber      " Enable relative numbers
 set colorcolumn=80      " Highlight the 80th character limit
 
 set showtabline=1       " Always show the tabs line
-
-
-
 
 " }}}
