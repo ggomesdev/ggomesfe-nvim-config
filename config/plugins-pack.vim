@@ -5,6 +5,8 @@ call plug#begin('~/.config/nvim/plugged')
 
 " Theme
 Plug 'joshdick/onedark.vim'
+Plug 'rakr/vim-two-firewatch'
+Plug 'jacoborus/tender.vim'
 
 " Vim Multiple cursos
 " Ctrl + n
